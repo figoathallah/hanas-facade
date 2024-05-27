@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Because sooner or later... I would've killed you.\nBut don't worry...\nOnce a more thorough investigation is done on Shinji, you'll be cleared out of suspicion for sure.\nAnd they'll figure out I was the real killer.\nBut I would be long gone by then. I know I couldn't stay in this school forever.\nI had so much fun here, though. I won't lie about that.\nFarewell, Sayu.\nENDING 3/3: [b]Betrayed[b]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710259873.json",
+		"name": "epilogue-pt2"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"color": "#ff890cf0",
+	"description": "",
+	"display_name": "Sayu",
+	"display_name_bool": true,
+	"id": "character-1709456616.json",
+	"mirror_portraits": false,
+	"name": "Sayu Tokuda",
+	"nickname": "Sayun,Tokuda",
+	"nickname_bool": true,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1709457506.cfg"
+}

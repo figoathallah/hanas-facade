@@ -1,0 +1,26 @@
+{
+	"events": [
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=3]I'm sorry... \n[speed=3]I'm so sorry...\n[speed=3]I'm so sorry that..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=8][color=#f20f3c]You were my first kill in this school, Shinji.[/color]"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709550459.json",
+		"name": "plot-twist"
+	}
+}

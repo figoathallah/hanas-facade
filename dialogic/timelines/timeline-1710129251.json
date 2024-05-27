@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Better not go in the boys' bathroom..."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710129251.json",
+		"name": "boys-bathroom"
+	}
+}

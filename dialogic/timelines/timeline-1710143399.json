@@ -1,0 +1,138 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "A glowing green thing can be seen underneath the table. Reach into it?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hana reaches under the table to find a piece of torn green fabric.\nIt's part of the ribbon on the girls' mandated school uniform."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Obtained [color=#f6dd3f]Torn Ribbon.[/color]"
+		},
+		{
+			"emit_signal": "torn_ribbon",
+			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1710144248-728",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710143978-849",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That Shinji pulled on my ribbon quite hard alright...\nNo surprise part of it is torn like this.\nLuckily I can sew it back together in a jiffy with the [color=#f6dd3f]Sewing Kit[/color] I found."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You sewed the ribbon piece back together."
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
+			"definition": "1710144763-171",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710144752-894",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710144729-403",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"definition": "1710255289-934",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710143978-849",
+			"event_id": "dialogic_012",
+			"value": "false"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That Shinji pulled on my ribbon quite hard alright... \nNo surprise part of it is torn like this.\nNow, how do I sew it back together?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710143399.json",
+		"name": "ribbon"
+	}
+}

@@ -1,0 +1,13 @@
+Hi, thanks for download this pack asset!
+
+
+HOW TO IMPORT THE PACKAGE ON GODOT:
+
+1) open the zip file
+2) create a new project (or use your main project, but make a backup before)
+3) export the zip content to your project
+4) restart Godot
+
+you'll find a new node called "escenario" with a child node called "tilemap". Here you can add or remove it (that's all for a demo purpose)
+
+ANY DOUBTS feel free to comment in my itch.io page!

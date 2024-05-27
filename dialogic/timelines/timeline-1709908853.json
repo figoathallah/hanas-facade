@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sheesh. I left a lot of evidence this time around. \nI need to clean this classroom and go back to my friends to avoid suspicion.\nI only have 5 minutes… \nWhere do I start? "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WASD or arrow keys to move. Press E or Enter to interact with objects.\nMake Hana innocent at all costs! Explore the school and find items that can help hide evidence of her murder.\nIn fact, you could probably plant fake evidence to make it look like one of your classmates did the crime instead!\nWhen you feel like you've done everything, proceed to the hallway and go downstairs to regroup with your friends.\nGood luck."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709908853.json",
+		"name": "clean-evidence"
+	}
+}

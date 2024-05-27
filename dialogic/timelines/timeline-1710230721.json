@@ -1,0 +1,164 @@
+{
+	"events": [
+		{
+			"condition": "",
+			"definition": "1710143249-258",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's nothing of value inside the trash can anymore."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710143249-258",
+			"event_id": "dialogic_012",
+			"value": "false"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You look inside the trash can to find... [pause=1.0] NOTHING!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=3]..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "On a second look, you see a half-empty tube of super glue near the bottom."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Take the tube of super glue?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Obtained [color=#f6dd3f]Super Glue.[/color]"
+		},
+		{
+			"emit_signal": "super_glue",
+			"event_id": "dialogic_040"
+		},
+		{
+			"definition": "1710143249-258",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710144526-918",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excellent. This adhesive should be strong enough to fix my keychain.\n...\nThere, good as new."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You reattached the chain back to the keyring."
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
+			"definition": "1710144752-894",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710144763-171",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"condition": "",
+			"definition": "1710144729-403",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"definition": "1710255289-934",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710230721.json",
+		"name": "trash-can-2"
+	}
+}

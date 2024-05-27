@@ -1,0 +1,73 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1710144752-894",
+			"name": "evidence_keychain_reattached",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710143249-258",
+			"name": "has_super_glue",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710143978-849",
+			"name": "has_sewing_kit",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710144526-918",
+			"name": "has_keychain",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710144248-728",
+			"name": "has_ribbon",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710144729-403",
+			"name": "evidence_floor_mopped",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710144763-171",
+			"name": "evidence_ribbon_sewn",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710255289-934",
+			"name": "all_evidence_collected",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710250189-648",
+			"name": "has_bracelet",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710250200-787",
+			"name": "bracelet_evidence_planted",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1710127078-483",
+			"name": "has_mop_bucket",
+			"type": 0,
+			"value": "false"
+		}
+	]
+}

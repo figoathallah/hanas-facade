@@ -1,0 +1,143 @@
+{
+	"events": [
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What… what? Officer, this was a mistake…"
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tokuda... you killed Shinji? Please say it's not true..."
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I didn’t!! I would never! \nHanacchi, I'm innocent! Please tell them that!"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sayun..."
+		},
+		{
+			"character": "character-1709456610.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Come to think of it, the library closes at 4 PM, right? \n[speed=2.0]It’s 4:30 when we heard the thud."
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=3.0]I.... that's...."
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's right. You said you went to return a book, Tokuda? \nWhat were you actually doing, my child?"
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=5.0]I was.... I was...."
+		},
+		{
+			"emit_signal": "copConfront",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1710259748.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We’ve heard enough. We’re taking you in for questioning."
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No!! Please!!!! No, no!! I DIDN'T DO IT!!! "
+		},
+		{
+			"emit_signal": "sayuBeg1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 0.5
+		},
+		{
+			"emit_signal": "sayuBeg2",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1710259748.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey!"
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=4.0]Hanacchi… HELP ME!!! YOU’RE...\n[speed=7.0]MY BEST FRIEND… "
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\n[speed=7.0]I can't..."
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=6.0]W-what??"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=8.0]I can't keep being your best friend."
+		},
+		{
+			"emit_signal": "sayuTurn",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1.5
+		},
+		{
+			"emit_signal": "copWalk",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "sayuWalk",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=4]Sayu doesn't say anything else.\n[speed=4]She walks away with the officers, her look full of disappointment and shock."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710259108.json",
+		"name": "epilogue"
+	}
+}

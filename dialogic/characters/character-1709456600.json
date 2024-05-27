@@ -1,0 +1,21 @@
+{
+	"color": "#fffc8dc9",
+	"description": "",
+	"display_name": "Hana",
+	"display_name_bool": true,
+	"id": "character-1709456600.json",
+	"mirror_portraits": false,
+	"name": "Hana Hayashi",
+	"nickname": "Hanacchi, Hayashi",
+	"nickname_bool": true,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1709457506.cfg"
+}

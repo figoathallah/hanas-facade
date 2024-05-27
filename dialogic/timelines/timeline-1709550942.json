@@ -1,0 +1,73 @@
+{
+	"events": [
+		{
+			"character": "character-1709550804.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hayashi… what are you doing? I thought you went to the bathroom?"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh Shinji, you’re like a lost little lamb, you know?\nAll alone... "
+		},
+		{
+			"emit_signal": "inchCloser",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1709550804.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "G-get away from me!"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You see, I thought I wouldn't have to kill anyone at this school… \nBut I have a monthly quota to fill."
+		},
+		{
+			"character": "character-1709550804.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Q…q-quota?"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "To put it simply, today’s the last day of the month, and I’m one victim short. \nI’m sorry, Shinji. \nI've always kinda liked you."
+		},
+		{
+			"emit_signal": "inchCloser",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1709550804.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re a monster!!"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Goodbye."
+		},
+		{
+			"emit_signal": "rapidLunge",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 0.3
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709550942.json",
+		"name": "confrontation"
+	}
+}

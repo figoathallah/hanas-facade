@@ -1,0 +1,91 @@
+{
+	"events": [
+		{
+			"condition": "",
+			"definition": "1710255289-934",
+			"event_id": "dialogic_012",
+			"value": "false"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Despite everything you tried to hide, the police found substantial evidence that they can connect to you. \nYou are promptly taken to the police station for further questioning.\nENDING 1/3: [b]Busted[b]"
+		},
+		{
+			"emit_signal": "normal_ending",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710255289-934",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No matter how hard the police looked, they couldn't find anything to tie you to the crime. \nJudging by the chair near the window, the police were about ready to rule Shinji’s death as a self-exit...\nHowever, your classmates and Mr. Iwata has a rising suspicion of you. \nThey thought you were gone for too long. "
+		},
+		{
+			"condition": "",
+			"definition": "1710250200-787",
+			"event_id": "dialogic_012",
+			"value": "false"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And since you didn't plant any evidence to shift the blame, Mr. Iwata questions you further… \nuntil your facade broke. \nYou scoff at Mr. Iwata and confess to killing Shinji and tampering with evidence. \nThe police take you away to the station in handcuffs.\nENDING 2/3: [b]Outsmarted[b]"
+		},
+		{
+			"emit_signal": "normal_ending",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710250200-787",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just then, an officer who investigated the classroom more thoroughly reports finding a friendship bracelet under the chair near the window. \nSayu’s eyes darted to her wrist. She just noticed… \nthat her bracelet wasn't there.\nShe gestures to you to show your wrists and to her surprise, your bracelet is still on you.\nYou both lock eyes and stare at each other for a while. \nEventually, through tears in your eyes, you point to Sayu and say:"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was her's, officer."
+		},
+		{
+			"emit_signal": "sayu_ending",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1710254948.json",
+		"name": "ending"
+	}
+}

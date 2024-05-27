@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hana tries to stab him with her makeshift knife keychain, but Shinji avoids it.\nThey both tussle for a bit, but Hana's strength overwhelms Shinji immensely.\nFeeling cornered, he climbs onto a chair and tells her to stay back. \nThe chair was right in front of an open window,\nso Hana simply smiled...\nand pushed his body out of it.\nShinji loses his footing, felt the cool breeze of the evening wind...\nand plummets to his death."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aw, that ended too fast.\nCrap, I left behind quite a mess here...\nNo time to think about that now, I need to act shocked and fool my friends.\nWell then,\n[speed=4][b]Let Hana's Facade begin.[b]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709551750.json",
+		"name": "the-kill"
+	}
+}

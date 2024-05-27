@@ -1,0 +1,21 @@
+{
+	"color": "#ff24b377",
+	"description": "",
+	"display_name": "Shinji",
+	"display_name_bool": true,
+	"id": "character-1709550804.json",
+	"mirror_portraits": false,
+	"name": "Shinji Fujimoto",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1709457506.cfg"
+}

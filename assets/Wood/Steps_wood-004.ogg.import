@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Steps_wood-004.ogg-8cf3fc2859c7c3a733e55b1f20085b12.oggstr"
+
+[deps]
+
+source_file="res://assets/Wood/Steps_wood-004.ogg"
+dest_files=[ "res://.import/Steps_wood-004.ogg-8cf3fc2859c7c3a733e55b1f20085b12.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

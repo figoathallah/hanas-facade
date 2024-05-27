@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/DefaultBoldFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://scripts/Skip.gd" type="Script" id=2]
+
+[node name="Skip" type="Label"]
+margin_right = 1024.0
+margin_bottom = 14.0
+custom_colors/font_color = Color( 0.952941, 1, 0.690196, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "PRESS \"X\" TO SKIP CUTSCENE"
+align = 1
+script = ExtResource( 2 )

@@ -1,0 +1,105 @@
+{
+	"events": [
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "How horrible..."
+		},
+		{
+			"emit_signal": "skipAhead",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1709456610.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What the hell..."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shinji..."
+		},
+		{
+			"emit_signal": "skipHide",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You guys… what happened while I was away in the teacher's room?"
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don’t know, Mr. Iwata… \nI went to return a book to the library...\nAnd I heard the thud when I was on my way back."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was in the bathroom… sorry, I should’ve stayed with him…"
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, Hanacchi! This isn't your fault. You didn't know.\nAs for you, Kaito…"
+		},
+		{
+			"character": "character-1709456610.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well don’t look at me, I said I was… [pause=1.4]smoking on the rooftop."
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yamane, you brought cigarettes to school??"
+		},
+		{
+			"character": "character-1709456610.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey! Maybe focus on Shinji for now?"
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So none of you were in the classroom when he fell? "
+		},
+		{
+			"character": "character-1709456616.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No...."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm so sorry...."
+		},
+		{
+			"character": "character-1709456623.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Right, okay. All of you stay here, I’m calling the police and the ambulance. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709458267.json",
+		"name": "prologue"
+	}
+}

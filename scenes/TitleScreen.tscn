@@ -1,0 +1,121 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://assets/Heller Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/DefaultFont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://scripts/TitleScreen.gd" type="Script" id=3]
+[ext_resource path="res://scenes/transition.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/Toshidensetsu.wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/ButtonUnpressed.png" type="Texture" id=6]
+[ext_resource path="res://assets/ButtonPressed.png" type="Texture" id=7]
+[ext_resource path="res://assets/Hana Hayashi.png" type="Texture" id=8]
+[ext_resource path="res://assets/Blood splatter.png" type="Texture" id=9]
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0, 0.346821, 0.699422, 0.963731 )
+colors = PoolColorArray( 0.445313, 0.151337, 0.151337, 1, 0.925781, 0.311005, 0.311005, 1, 0.506042, 0.160597, 0.160597, 1, 0.191406, 0.0478516, 0.0478516, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+width = 1212
+
+[sub_resource type="Shader" id=4]
+
+[sub_resource type="ShaderMaterial" id=5]
+shader = SubResource( 4 )
+
+[sub_resource type="DynamicFont" id=1]
+size = 128
+font_data = ExtResource( 1 )
+
+[node name="TitleScreen" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = -231.0
+margin_top = -5.0
+margin_right = 1817.0
+margin_bottom = 608.0
+texture = SubResource( 3 )
+expand = true
+
+[node name="BloodSplatter" type="Sprite" parent="."]
+visible = false
+position = Vector2( 518, 310 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 9 )
+
+[node name="Label2" type="Label" parent="."]
+material = SubResource( 5 )
+margin_left = 148.0
+margin_top = 89.0
+margin_right = 893.0
+margin_bottom = 294.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "HANA'S FACADE"
+
+[node name="Label" type="Label" parent="."]
+material = SubResource( 5 )
+margin_left = 143.0
+margin_top = 82.0
+margin_right = 888.0
+margin_bottom = 287.0
+custom_fonts/font = SubResource( 1 )
+text = "HANA'S FACADE"
+
+[node name="PlayButton" type="TextureButton" parent="."]
+margin_left = 109.0
+margin_top = 242.0
+margin_right = 468.0
+margin_bottom = 408.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+expand = true
+
+[node name="PlayLabel" type="Label" parent="PlayButton"]
+margin_left = 109.0
+margin_top = 31.0
+margin_right = 258.0
+margin_bottom = 124.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = -2
+custom_constants/shadow_offset_y = 4
+custom_fonts/font = ExtResource( 2 )
+text = "PLAY"
+
+[node name="QuitButton" type="TextureButton" parent="."]
+margin_left = 109.0
+margin_top = 404.0
+margin_right = 472.0
+margin_bottom = 572.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+expand = true
+
+[node name="QuitLabel" type="Label" parent="QuitButton"]
+margin_left = 109.0
+margin_top = 34.0
+margin_right = 258.0
+margin_bottom = 127.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = -2
+custom_constants/shadow_offset_y = 4
+custom_fonts/font = ExtResource( 2 )
+text = "QUIT"
+
+[node name="Transition" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="TitleScreenBGM" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+
+[node name="HanaHayashi" type="Sprite" parent="."]
+position = Vector2( 730, 321 )
+scale = Vector2( 0.65, 0.65 )
+texture = ExtResource( 8 )
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_QuitButton_pressed"]
+[connection signal="transitioned" from="Transition" to="." method="_on_Transition_transitioned"]
