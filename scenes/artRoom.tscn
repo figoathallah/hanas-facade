@@ -335,7 +335,7 @@ position = Vector2( 390.714, 330 )
 [node name="Easel12" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 459.286, 330 )
 
-[node name="SewingKit" type="Sprite" parent="."]
+[node name="SewingKit" type="Sprite" parent="." groups=["keyItems"]]
 position = Vector2( 148, 146 )
 texture = ExtResource( 8 )
 

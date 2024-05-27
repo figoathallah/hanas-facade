@@ -380,7 +380,7 @@ visible = false
 position = Vector2( 306, 256 )
 dialogName = "footprints"
 
-[node name="Footprints" type="TileMap" parent="."]
+[node name="Footprints" type="TileMap" parent="." groups=["keyItems"]]
 position = Vector2( 9, -40 )
 tile_set = SubResource( 27 )
 format = 1
@@ -390,13 +390,13 @@ tile_data = PoolIntArray( 196611, 0, 0 )
 position = Vector2( 239, 379 )
 dialogName = "keychain"
 
-[node name="Keychain" type="TileMap" parent="."]
+[node name="Keychain" type="TileMap" parent="." groups=["keyItems"]]
 position = Vector2( 32, 16 )
 tile_set = SubResource( 29 )
 format = 1
 tile_data = PoolIntArray( 327683, 0, 0 )
 
-[node name="Ribbon" type="TileMap" parent="."]
+[node name="Ribbon" type="TileMap" parent="." groups=["keyItems"]]
 position = Vector2( 15, -6 )
 tile_set = SubResource( 28 )
 format = 1

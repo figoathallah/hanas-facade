@@ -251,7 +251,7 @@ tile_set = SubResource( 8 )
 format = 1
 tile_data = PoolIntArray( 196611, 0, 0 )
 
-[node name="MopBucket" type="TileMap" parent="."]
+[node name="MopBucket" type="TileMap" parent="." groups=["keyItems"]]
 scale = Vector2( 1.7, 1.7 )
 tile_set = SubResource( 11 )
 format = 1
@@ -282,6 +282,10 @@ dialogName = "mop-bucket"
 [node name="MirrorInteract" parent="." instance=ExtResource( 11 )]
 position = Vector2( 564, 225 )
 dialogName = "mirror-flavor-text"
+
+[node name="StallsInteract" parent="." instance=ExtResource( 11 )]
+position = Vector2( 205, 290 )
+dialogName = "cheatcode"
 
 [connection signal="player_entered" from="AreaTrigger" to="Hana" method="_on_AreaTrigger_player_entered"]
 [connection signal="player_exited" from="AreaTrigger" to="Hana" method="_on_AreaTrigger_player_exited"]

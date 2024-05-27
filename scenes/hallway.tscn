@@ -427,7 +427,7 @@ position = Vector2( -1.00002, -25 )
 scale = Vector2( 0.851347, 0.991687 )
 tile_set = SubResource( 3 )
 format = 1
-tile_data = PoolIntArray( 196586, 9, 0, 196587, 3, 0, 196590, 0, 0, 196591, 0, 0, 196592, 0, 0, 196593, 0, 0, 196596, 1610612743, 0, 196600, 4, 0, 196602, 0, 0, 196603, 0, 0, 196604, 0, 0, 196605, 0, 0, 131072, 3, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131081, 0, 0, 131082, 0, 0, 131083, 0, 0, 131084, 0, 0, 131088, 1610612741, 0, 131094, 4, 0, 131098, 0, 0, 131099, 0, 0, 131100, 0, 0, 131101, 0, 0, 131102, 0, 0, 131103, 0, 0, 131104, 0, 0, 131107, 1610612741, 0, 131108, 10, 0, 262123, 2, 0, 196608, 2, 0, 196631, 2, 0 )
+tile_data = PoolIntArray( 196586, 9, 0, 196587, 3, 0, 196590, 0, 0, 196591, 0, 0, 196592, 0, 0, 196593, 0, 0, 196596, 1610612743, 0, 196600, 4, 0, 196602, 0, 0, 196603, 0, 0, 196604, 0, 0, 196605, 0, 0, 131072, 3, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131081, 0, 0, 131082, 0, 0, 131083, 0, 0, 131084, 0, 0, 131088, 1610612741, 0, 131094, 4, 0, 131098, 0, 0, 131099, 0, 0, 131100, 0, 0, 131101, 0, 0, 131102, 0, 0, 131103, 0, 0, 131104, 0, 0, 131107, 1610612741, 0, 131108, 10, 0, 262123, 2, 0, 196608, 2, 0 )
 
 [node name="Plant" type="TileMap" parent="."]
 position = Vector2( 0, 10 )
@@ -440,6 +440,12 @@ position = Vector2( 17, 17 )
 tile_set = SubResource( 11 )
 format = 1
 tile_data = PoolIntArray( -65520, 0, 0 )
+
+[node name="TrashCanKey" type="TileMap" parent="." groups=["keyItems"]]
+position = Vector2( 44, -19 )
+tile_set = ExtResource( 1 )
+format = 1
+tile_data = PoolIntArray( 196627, 7, 0 )
 
 [node name="Hana" parent="." instance=ExtResource( 10 )]
 position = Vector2( 818, 183 )
@@ -504,7 +510,7 @@ dialogName = "locked-door"
 position = Vector2( 1938, 180 )
 dialogName = "friendship-bracelet"
 
-[node name="FriendshipBracelet" type="Sprite" parent="."]
+[node name="FriendshipBracelet" type="Sprite" parent="." groups=["keyItems"]]
 position = Vector2( 1950, 164 )
 texture = ExtResource( 17 )
 

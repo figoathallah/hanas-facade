@@ -1,0 +1,73 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OoOoOOoOoOoOoooOOo....."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "W-what was that???"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is I.... the Ghost of Hintstrom!!"
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "....Never heard of that place.\nWhat do you want? I'm trying to cover up my murder here."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "*ahem* Young disciple, should you find yourself in any predicament in your quest of removing sin...\nJust shout the words \"[color=#f6dd3f]hanadulset[/color]\" and I'll show you wonders your eyes have never perceived before!! "
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nEnglish, please?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhh... basically type \"[color=#f6dd3f]hanadulset[/color]\" on your keyboard and it'll highlight the things you still need to find."
+		},
+		{
+			"character": "character-1709456600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, okay! Thanks disembodied voice I found inside the stalls."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "'Tis my pleasure! I look forward on seeing what you could accomplish.\nAnd fear not, my child. You can type the word again... and all my spirits will combust!\nIt'll be as if I was never there to begin with. \nWell then, tally ho!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As swift as he arrived... \nThe Ghost of Hintstrom left without a trace. \n...\nHe got flushed down the toilet."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1716793762.json",
+		"name": "cheatcode"
+	}
+}
